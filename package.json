@@ -1,0 +1,16 @@
+{
+  "name": "personahcm.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://kanonochina.github.io/personahcm",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
