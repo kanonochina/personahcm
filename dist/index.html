@@ -387,7 +387,7 @@ gtag('config', 'UA-133512143-1');
                 website
             }
             data = JSON.stringify(data);
-             httpPost('https://productlistgenie.com/clean-test/mail', data, () => {
+             httpPost(`https://mail.personahcm.com?fullname=${fullname}&email=${email}&phone=${phone}&timezone=${timezone}&website=${website}`, data, () => {
                  $('#myModal').modal('toggle');
             gtag('event', 'conversion', {'send_to': 'AW-765774106/Q-XoCIunlJQBEJqSk-0C'}); 
              });
