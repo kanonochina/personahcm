@@ -351,7 +351,7 @@ gtag('config', 'UA-133512143-1');
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133512143-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133512143-1"></script> -->
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -387,7 +387,7 @@ gtag('config', 'UA-133512143-1');
                 website
             }
             data = JSON.stringify(data);
-             httpPost('/mail.php', data, () => {
+             httpPost('http://mail.personahcm.com', data, () => {
                  $('#myModal').modal('toggle');
             gtag('event', 'conversion', {'send_to': 'AW-765774106/Q-XoCIunlJQBEJqSk-0C'}); 
              });
