@@ -46,6 +46,10 @@ img {
     width: 100%;
 }
 
+.light-blue {
+    background-color: #14c4eb;
+}
+
 .second {
     color: #fff;
     background-color: #1a2d4e;
@@ -60,6 +64,9 @@ img {
     font-size: 3rem;
 }
 
+.lighter-blue {
+    background-color: #b7ebf4;
+}
 .third{
     background-color: #09c0ce;
     padding: 3rem 5rem;
